@@ -1,0 +1,115 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="rlogo.png">
+  <script src="index.js"></script>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <title>Portfolio</title>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init({
+        publicKey: "RBncOXKUy-qNx9tHC",
+      });
+    })();
+  </script>
+</head>
+
+<body>
+  <header class="head1">
+    <nav>
+      <div class="nav-bar">
+        <h1><span style="font-size: 2.5rem; margin-left: 30px;">Iam </span><span
+            style="color: rgb(60, 255, 255); font-size: 2.5rem;">Riswan</span></h1>
+        <a href="#About">About</a>
+        <a href="#Skills">Skills</a>
+        <a href="#Projects">Projects</a>
+        <a href="#Contact">Contact</a>
+      </div>
+    </nav>
+    <div class="container">
+      <img id="image" src="IMG_4792 (2).jpg" alt="">
+      <div class="profile">
+        <p><span style="font-weight: bold; font-family: sans-serif; font-size: 1.4rem;">Hey, </span><span
+            style="font-weight: bold; font-family: sans-serif; font-size: 1.4rem;"> I'm </span><span
+            style="color: rgb(4, 136, 136);font-size: 2.5rem;"> Riswan</span><br> <span style="font-size: 1.5rem;"> i
+            am a frontend-developer based in kochi,kerala. <br> curious to learn more about developing. loves problem
+            <br> solving and write codes that is easy to read and <br>manage.My ultimate goal is to forge a thriving
+            career <br> in the field of coding.</p>
+        <div class="container2">
+          <div id="About">
+            <h1>About Me</h1>
+            <div class="loader"></div>
+            <hr>
+            <p>My name is Riswan, and I completed my higher secondary education at KMGVHSS Tavanur. Currently I am
+              focusing on learning coding.I have learned HTML, CSS, and JavaScript. Beyond coding, I am passionate about
+              exploring diverse activities.My ultimate goal is to forge a thriving career in the field of coding.write
+              code that’s clear and easy to manage. I’m excited to keep improving my skills.</p>
+          </div>
+          <h1 style="display:flex; justify-content: center; padding-top: 160px;font-family:sans-serif;color:white;">
+            SKI<span style="color: rgb(83, 244, 244);">LLS</span></h1>
+          <div class="container3">
+            <div id="Skills"></div>
+            <div class="Skills">
+              <div class="hover1">
+                <i class='bx bxl-html5'></i>
+              </div>
+              <div class="hover2">
+                <i class='bx bxl-html5'></i>
+              </div>
+              <div class="hover3">
+                <i class='bx bxl-javascript'></i>
+              </div>
+            </div>
+          </div>
+          <h1 style="display:flex; justify-content: center; padding-top: 150px;font-family:sans-serif;color:white;">
+            PRO<span style="color: rgb(83, 244, 244);">JECTS</span></h1>
+          <div class="container4">
+            <div id="Projects"></div>
+            <img src="airbnb.jpeg" alt="">
+            <img src="bank.png" alt="">
+            <img src="w3school.jpeg" alt="">
+            <img src="protfolio.png" alt="">
+          </div>
+          <section id="Contact" class="section-head">
+            <div class="container5">
+
+              <h1 style="text-align: center; padding-bottom: 10px; color: rgb(0, 0, 0);">Contact</h1>
+              <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="ENTER YOUR NAME" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="ENTER YOUR EMAIL ID" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="ENTER YOUR MESSAGE" required></textarea>
+
+                <button type="button" onclick="sendMail()">Send Email</button>
+              </form>
+              <div class="socialmedia">
+                <a href="https://www.instagram.com/riswxn.7?igsh=anRkcHFxd3AyZHpx" target="_blank">
+                  <i id="insta" class='bx bxl-instagram'></i>
+                </a>
+                <a href="https://github.com/riswan-7" target="_blank">
+                  <i id="git" class='bx bxl-github'></i>
+                </a>
+                <a href="https://www.linkedin.com/in/riswan-t-677355321/" target="_blank">
+                  <i id="linkedin" class='bx bxl-linkedin'></i>
+                </a>
+              </div>
+              <footer>
+                <p style="text-align: center; margin-bottom: 0px; color: rgb(187, 187, 187);">Riswan
+                  Corporation © 2024 | Terms of Use | Privacy Policy</p>
+              </footer>
+            </div>
+        </div>
+      </div>
+  </header>
+</body>
+
+</html>
